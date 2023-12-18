@@ -6,7 +6,7 @@ app.use(cors());
 
 const linksArray = [
   'https://api.whatsapp.com/send?phone=553196719825&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20servi%C3%A7os%20de%20tr%C3%A1fego%20pago',
-  'https://api.whatsapp.com/send?phone=553198998050&text=Ol%C3%A1!%20Tenho%20interesse%20e%20queria%20mais%20informa%C3%A7%C3%B5es,%20por%20favor',
+  'https://api.whatsapp.com/send?phone=553193289446&text=Ol%C3%A1!%20Tenho%20interesse%20e%20queria%20mais%20informa%C3%A7%C3%B5es,%20por%20favor%0A%0A',
   'https://api.whatsapp.com/send?phone=553191628853&text=Tenho%20interesse%20nos%20servi%C3%A7os%20da%20Tropa%20m%C3%ADdias'
 ];
 

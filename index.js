@@ -17,8 +17,7 @@ app.get('/', (req, res) => {
   const currentLink = linksArray[currentIndex];
   currentIndex = (currentIndex + 1) % linksArray.length;
 
-  res.json({ link: currentLink });
-  res.send('success');
+  res.json({ link: currentLink }); // Envia apenas uma resposta
 });
 
 const PORT = process.env.PORT || 3000;
